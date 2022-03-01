@@ -3,6 +3,6 @@
 ---
 
 ## Integrantes del equipo:
-- Integrante 1
+- Maria Rebeca Novella Jiménez 
 - Integrante 2
 - Integrante 3
