@@ -3,6 +3,6 @@
 ---
 
 ## Integrantes del equipo:
-- Integrante 1
+- González Alvarado Raúl: 313245312
 - Integrante 2
 - Integrante 3
