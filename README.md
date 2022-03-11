@@ -7,7 +7,7 @@
 
 ## Instrucciones de uso
 **Pendiente**
-- Instalar dependencias
+- Instalar dependencias `pip install -r requirements.txt`
 - Ejecutar `python main.py`
 
 ## Instrucciones de testeo
