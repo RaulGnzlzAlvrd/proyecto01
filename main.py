@@ -1,1 +1,2 @@
-import src.get_lectura
+from src.get_lectura import run
+run()

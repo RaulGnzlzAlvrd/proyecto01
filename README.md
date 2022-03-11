@@ -10,6 +10,9 @@
 - Instalar dependencias `pip install -r requirements.txt`
 - Ejecutar `python main.py`
 
+El archivo con los tickets debe estar en la carpeta `datasets/tickets.csv`.
+Mientras que el archivo de salida con los datos necesarios están en `datasets/clima.csv`
+
 ## Instrucciones de testeo
 Para ejecutar los tests, desde el directorio raíz (este
 mismo directorio) ejecutar:
