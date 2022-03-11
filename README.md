@@ -3,7 +3,7 @@
 ## Integrantes del equipo:
 - González Alvarado Raúl: 313245312
 - Novella Jiménez Maria Rebeca : 313143926
-- Integrante 3
+- Camargo Fortiz Miriam: 313056459
 
 ## Instrucciones de uso
 **Pendiente**
