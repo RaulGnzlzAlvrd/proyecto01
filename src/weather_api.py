@@ -27,6 +27,3 @@ def clean_response(data):
     clean_data['sensacion_termica'] = data['main']['feels_like']
     clean_data['nubes']= data['clouds']['all']
     return clean_data 
-    
-clima = get_clima('25.7785', '-100.107')
-print(clima)
