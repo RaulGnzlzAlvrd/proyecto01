@@ -6,7 +6,7 @@
 - Camargo Fortiz Miriam: 313056459
 
 ## Instrucciones de uso
-**Pendiente**
+- Crear archivo `.env` y colocar las variables de entorno correspondientes (usar como referencia el archivo `.env.example`)
 - Instalar dependencias `pip install -r requirements.txt`
 - Ejecutar `python main.py`
 
