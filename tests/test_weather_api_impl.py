@@ -1,13 +1,13 @@
 from unittest import TestCase
 
-from src.weather_api import WeatherApiImpl as WeatherApi
+from src.weather_api import WeatherApiImpl
 
 class TestWeatherApiImpl(TestCase):
     def setUp(self):
         """
         Inicializa lo necesario para ejecutar los tests
         """
-        self.api = WeatherApi()
+        self.api = WeatherApiImpl()
 
     def test_valid_coords(self):
         """
