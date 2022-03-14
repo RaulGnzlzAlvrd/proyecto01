@@ -1,2 +1,5 @@
-from src.get_lectura import run
-run()
+from src import App
+
+# Entry point
+app = App()
+app.run()
