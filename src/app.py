@@ -1,6 +1,6 @@
 import pandas as pd 
 
-from weather_api import WeatherApiCache
+from .weather_api_cache import WeatherApiCache
 
 class App():
     """
