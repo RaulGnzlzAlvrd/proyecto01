@@ -4,6 +4,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def get_clima(latitud, longitud):
+    """
+    Funcion que hace la peticion get a openweather, obtiene el 
+    clima de la ubicacion con la latitud y longitud pasada como 
+    parametro
+    params: latitud y longitud para hacer la peticion 
+    return: Los datos de la peticion a openweather
+    """
     apiKey = os.environ['APIKEY']
     params = {
         'lat':latitud,
@@ -19,6 +26,11 @@ def get_clima(latitud, longitud):
 
 
 def clean_response(data):
+    """
+    Funcion que da un formato en español a los datos devueltos en la peticion get aponeweather
+    params: Datos en un diccionario
+    return: Diccionario con la informacion modificada 
+    """
     clean_data = {}
     clean_data['descripcion'] = data['weather'][0]['description']
     clean_data['temperatura'] = data['main']['temp']
