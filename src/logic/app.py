@@ -1,5 +1,5 @@
 import pandas as pd 
-from .weather_api_cache import get_clima
+from weather_api.weather_api_cache import get_clima
 
 def process_row(row):
     o_lat = row["origin_latitude"]
