@@ -1,7 +1,7 @@
 from unittest import TestCase
 import pandas as pd
 
-from src.app import App
+from src.pkg.logic.app import App
 
 class TestApp(TestCase):
     def test_process_rows(self):

@@ -1,4 +1,4 @@
-from src import App
+from pkg.logic import App
 
 # Entry point
 app = App()
