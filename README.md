@@ -2,22 +2,19 @@
 
 ## Integrantes del equipo:
 - González Alvarado Raúl: 313245312
-- Novella Jiménez Maria Rebeca : 313143926
+- Novella Jiménez Maria Rebeca: 313143926
 - Camargo Fortiz Miriam: 313056459
 
 ## Instrucciones de uso
-- Crear archivo `.env` y colocar las variables de entorno correspondientes (usar como referencia el archivo `.env.example`)
+- Copiar el archivo `.env.example` como `.env` y colocar las variables de entorno correspondientes.
 - Instalar dependencias `pip install -r requirements.txt`
-- Ejecutar `python main.py`
+- Ejecutar `python src/main.py`
 
 El archivo con los tickets debe estar en la carpeta `datasets/tickets.csv`.
-Mientras que el archivo de salida con los datos necesarios están en `datasets/clima.csv`
+Mientras que el archivo de salida con los datos requeridos están en `datasets/clima.csv`
 
 ## Instrucciones de testeo
-Para ejecutar los tests, desde el directorio raíz (este
-mismo directorio) ejecutar:
+Para ejecutar los tests, desde el directorio raíz (este mismo directorio) ejecutar:
 ```
-python -Bm unittest
+python -m unittest
 ```
-> La opción `-B` es para que no se creen los archivos
-cache de compilación de python.

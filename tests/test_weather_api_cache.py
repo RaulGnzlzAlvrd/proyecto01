@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.weather_api import WeatherApiCache
+from src.pkg.weather_api import WeatherApiCache
 
 class TestWeatherApiCache(TestCase):
     def setUp(self):

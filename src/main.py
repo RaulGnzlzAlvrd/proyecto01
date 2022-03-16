@@ -1,2 +1,5 @@
-from logic.app import run
-run()
+from pkg.logic import App
+
+# Entry point
+app = App()
+app.run()

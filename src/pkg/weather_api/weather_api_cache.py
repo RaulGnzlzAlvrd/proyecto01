@@ -1,12 +1,12 @@
 from .weather_api import get_clima as get_clima_origin
 
-class weatherApiCache:
+class WeatherApiCache:
     """
     Consulta la api usando el cache, eliminando consultas duplicadas.
     """
     def __init__ (self):
         self.cache = {}
-
+        self._calls = 0
   
     def get_clima(self, latitud, longitud):
         """
@@ -16,6 +16,7 @@ class weatherApiCache:
         if llave in self.cache.keys():
             return self.cache[llave]
         else: 
-            data= get_clima_origin(latitud, longitud)
+            data = get_clima_origin(latitud, longitud)
             self.cache[llave]=data
+            self._calls += 1
             return data    
